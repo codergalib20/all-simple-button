@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.all-button {
+    margin: 100px;
+}
+.btn-1 {
+    width: 356px;
+    height: 94px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #111;
+    background: red;
+    border: 0;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    transform: rotate(19deg);
+    z-index: 1;
+}
+.btn-1::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 100%;
+    right: 0;
+    background: blueviolet;
+    transition: .5s;
+    z-index: -1;
+    border-radius: 5px;
+
+}
+.btn-1:hover::after{
+    bottom: 0;
+}
+
+          /*    BTN-2      */
+          .btn-2 {
+            width: 356px;
+            height: 94px;
+            font-size: 30px;
+            font-weight: 900;
+            color: #111;
+            background: red;
+            border: 0;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            position: relative;
+            transform: rotate(19deg);
+            z-index: 1;
+        }
+        .btn-2::after{
+            content: "";
+            position: absolute;
+            left: 100%;
+            top: 100%;
+            bottom: 0;
+            right: 100%;
+            background: blueviolet;
+            transition: .5s;
+            z-index: -1;
+            border-radius: 5px;
+        
+        }
+        .btn-2:hover::after{
+            left: 0;
+            top: 0;
+            right: 0;
+        }
+          /*    BTN-3      */
+          .btn-3 {
+            width: 356px;
+            height: 94px;
+            font-size: 30px;
+            font-weight: 900;
+            color: #111;
+            background: red;
+            border: 0;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            position: relative;
+            transform: rotate(19deg);
+            z-index: 1;
+        }
+        .btn-3::after{
+            content: "";
+            position: absolute;
+            left: 100%;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            background: blueviolet;
+            transition: .5s;
+            z-index: -1;
+            border-radius: 5px;
+        
+        }
+        .btn-3:hover::after{
+            left: 0;
+        }
+          /*    BTN-4      */
+          .btn-4 {
+            width: 356px;
+            height: 94px;
+            font-size: 30px;
+            font-weight: 900;
+            color: #111;
+            background: red;
+            border: 0;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            position: relative;
+            transform: rotate(19deg);
+            z-index: 1;
+        }
+        .btn-4::after{
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 100%;
+            background: blueviolet;
+            transition: .5s;
+            z-index: -1;
+            border-radius: 5px;
+        
+        }
+        .btn-4:hover::after{
+            right: 0;
+        }
+          /*    BTN-5      */
+          .btn-5 {
+            width: 356px;
+            height: 94px;
+            font-size: 30px;
+            font-weight: 900;
+            color: #111;
+            background: red;
+            border: 0;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            position: relative;
+            transform: rotate(19deg);
+            z-index: 1;
+        }
+        .btn-5::after{
+            content: "";
+            position: absolute;
+            left: 100%;
+            top: 0;
+            bottom: 100%;
+            right: 100%;
+            background: blueviolet;
+            transition: .5s;
+            z-index: -1;
+            border-radius: 5px;
+        
+        }
+        .btn-5:hover::after{
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+          /*    BTN-6      */
+          .btn-6 {
+            width: 356px;
+            height: 94px;
+            font-size: 30px;
+            font-weight: 900;
+            color: #111;
+            background: red;
+            border: 0;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            position: relative;
+            transform: rotate(19deg);
+            z-index: 1;
+        }
+        .btn-6::after{
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 100%;
+            bottom: 100%;
+            right: 0;
+            background: blueviolet;
+            transition: .5s;
+            z-index: -1;
+            border-radius: 5px;
+        
+        }
+        .btn-6:hover::after{
+            bottom: 0;
+            top: 0;
+        }
+          /*    BTN-7      */
+          .btn-7 {
+            width: 356px;
+            height: 94px;
+            font-size: 30px;
+            font-weight: 900;
+            color: #111;
+            background: red;
+            border: 0;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            position: relative;
+            transform: rotate(19deg);
+            z-index: 1;
+        }
+        .btn-7::after{
+            content: "";
+            position: absolute;
+            left: 100%;
+            top: 100%;
+            bottom: 0;
+            right: 0;
+            background: blueviolet;
+            transition: .5s;
+            z-index: -1;
+            border-radius: 5px;
+        
+        }
+        .btn-7:hover::after{
+            top: 0;
+            left: 0;
+        }
+          /*    BTN-8      */
+          .btn-8 {
+            width: 356px;
+            height: 94px;
+            font-size: 30px;
+            font-weight: 900;
+            color: #111;
+            background: red;
+            border: 0;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            position: relative;
+            transform: rotate(19deg);
+            z-index: 1;
+        }
+        .btn-8::after{
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 100%;
+            right: 100%;
+            background: blueviolet;
+            transition: .5s;
+            z-index: -1;
+            border-radius: 5px;
+        
+        }
+        .btn-8:hover::after{
+            bottom: 0;
+            right: 0;
+        }
+          /*    BTN-9      */
+          .btn-9 {
+            width: 356px;
+            height: 94px;
+            font-size: 30px;
+            font-weight: 900;
+            color: #111;
+            background: red;
+            border: 0;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            position: relative;
+            transform: rotate(19deg);
+            z-index: 1;
+        }
+        .btn-9::after{
+            content: "";
+            position: absolute;
+            left:100%;
+            top: 100%;
+            bottom: 100%;
+            right: 100%;
+            background: blueviolet;
+            transition: .5s;
+            z-index: -1;
+            border-radius: 5px;
+        
+        }
+        .btn-9:hover::after{
+            bottom: 0;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
